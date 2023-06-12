@@ -3,7 +3,8 @@ Hi, Welcome to my Codenames game :D
 
 Codenames is a popular word-based board game. In this game, two teams compete to see who can correctly guess their words first. Each team has a spymaster who gives one-word clues to their team to help them guess their words. In my version of the game, you and the computer (AI) is on the same team (Blue team)
 
-![Alt text](main/Codenamesgif.gif)
+![Alt text](Codenamesgif.gif)
+
 ## How the game works
 
 This implementation of Codenames is written in Python and uses several libraries such as PySimpleGUI, Pygame, and VLC. The game starts with a loading screen that plays a video using the VLC library. The game board is then displayed using PySimpleGUI, with a 5x5 grid of buttons representing the words. The game also includes sound effects using the Pygame library.
@@ -12,7 +13,7 @@ The game logic is implemented in several Python files. The `main.py` file contai
 
 PysimpleGUI has multiple themes, everytime you run or restart the game, you'll get a different theme.
 
-![Alt text](main/PysimpleThemes.jpg)
+![Alt text](PysimpleThemes.jpg)
 
 ## How to play
 
@@ -22,7 +23,7 @@ You can also click on the "Next Clue" button to have the computer give you a clu
 
 To win the game, you need to guess all 8 blue words from the matrix. If you hit civilian words neither of the teams get any points and if you hit the assissn word, it's instant Game Over! and you lose.
 
-![Alt text](main/CodenamesWorkingSS.png)
+![Alt text](CodenamesWorkingSS.png)
 
 ## Requirements
 
