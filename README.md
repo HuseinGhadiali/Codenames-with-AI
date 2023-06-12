@@ -39,8 +39,10 @@ To run this code, you will need to have Python installed on your computer along 
 - Pygame
 - VLC
 
-You will also need to have the GloVe pre-trained word vectors saved in a file named `gloveupdated1.pkl` in the `Codenames` directory. (The Gloveupdated1.pkl file is too huge, if you would like to download it, here is the drive link for all requirements - https://drive.google.com/drive/folders/1igF4F6LUmjTB2V16SeoZdiwiXk3Ye8CH?usp=sharing)
+You will also need to have the GloVe pre-trained word vectors saved in a file named `gloveupdated1.pkl` in the `Codenames` directory. You will also need the `words.pkl` file which is the list of Codenmaes words. (The Gloveupdated1.pkl file is too huge, if you would like to download it, here is the drive link for all requirements - https://drive.google.com/drive/folders/1igF4F6LUmjTB2V16SeoZdiwiXk3Ye8CH?usp=sharing)
 
 ## Challenges
 
 One of the biggest challenges in developing this game was finding similar words to use as clues. Several pre-trained word vector models were tested, including Word2Vec, but the accuracy was not satisfactory. Eventually, GloVe was chosen because it reads through an entire corpus rather than individual documents, which resulted in better accuracy when finding similar words. 
+
+### PS - There is a file called FinalSprintV5.ipynb which is a notebook where my entire code is in one place for you to run. All you need to download are the requirements.
